@@ -1,0 +1,33 @@
+.part1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding-block-end: 50px;
+    padding-inline-end: 50px;
+}
+
+.part1 .header {
+    display: flex;
+    justify-content:space-around;
+    gap: 330px;
+}
+
+.part1 .header .links {
+    display: flex;
+    gap: 25px;
+    color: silver
+}
+
+.part1 .content {
+    display: flex;
+    justify-content:space-around;
+}
+
+.part1 .content .left {
+    width: 300px;
+}
+
+#mega {
+    font-size: 48px;
+    color: #F9FAF8;
+}
